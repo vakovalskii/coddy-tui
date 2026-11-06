@@ -1,0 +1,29 @@
+diff --git a/node_modules/ink/build/ink.js b/node_modules/ink/build/ink.js
+--- a/node_modules/ink/build/ink.js
++++ b/node_modules/ink/build/ink.js
+@@ -706,12 +706,24 @@
+         return this.nextRenderCommit.promise;
+     }
+     renderInteractiveFrame(output, outputHeight, staticOutput) {
+-        this.log.setCursorPosition(this.cursorPosition);
++        let cursorPosition = this.cursorPosition;
+         const hasStaticOutput = staticOutput !== '';
+         const isTty = this.options.stdout.isTTY;
+         // Detect fullscreen: output fills or exceeds terminal height.
+         // Only apply when writing to a real TTY — piped output always gets trailing newlines.
+         const viewportRows = isTty ? getWindowSize(this.options.stdout).rows : 24;
++        // coddy: на альтернативном экране кадр выше окна обрезаем сверху до высоты окна — терминал показал бы
++        // ту же нижнюю часть, но без очистки экрана (ESC[2J) и прокрутки. Иначе кадр, выросший на строку
++        // (высота нижней панели перемеряется на кадр позже), очищает весь экран — он «трясётся».
++        if (this.alternateScreen && isTty && !this.isUnmounting && outputHeight > viewportRows) {
++            const trimmed = outputHeight - viewportRows;
++            output = output.split('\n').slice(trimmed).join('\n');
++            outputHeight = viewportRows;
++            if (cursorPosition) {
++                cursorPosition = cursorPosition.y >= trimmed ? { ...cursorPosition, y: cursorPosition.y - trimmed } : undefined;
++            }
++        }
++        this.log.setCursorPosition(cursorPosition);
+         const isFullscreen = isTty && outputHeight >= viewportRows;
+         const outputToRender = isFullscreen ? output : output + '\n';
+         const shouldClearTerminal = shouldClearTerminalForFrame({

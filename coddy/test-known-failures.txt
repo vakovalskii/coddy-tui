@@ -1,0 +1,439 @@
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed alibabaStandard / deepseek-v4-pro native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed alibabaStandard / deepseek-v4-pro-0813 native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed alibabaStandard / kimi-k3 native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed alibabaStandard / qwen3.8-flash native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed alibabaStandard / qwen3.8-max native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed alibabaStandard / qwen3.8-max-0902 native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed coding-plan / kimi-k2.5 native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed coding-plan / qwen3.5-plus native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed deepseek / deepseek-flash native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed deepseek / deepseek-v4-flash native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed deepseek / deepseek-v4-pro native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed moonshot / kimi-k2.6 native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed moonshot / kimi-k2.7-code native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed moonshot / kimi-k2.7-code-highspeed native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed moonshot / kimi-k3 native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed token-plan / deepseek-v4-flash-0731 native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed token-plan / qwen3.8-flash native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed token-plan / qwen3.8-max native choices
+cli: src/acp-integration/model-configuration.test.ts > model configuration manifest > projects installed token-plan / qwen3.8-max-preview native choices
+cli: src/commands/autofix-pr/push.test.ts > runPush (real git, bare remote) > pushes when a pre-push hook prints more than a megabyte
+cli: src/commands/autofix-pr/push.test.ts > runPush (real git, bare remote) > reads a lease lost while a pre-push hook refused from the remote, with no "stale info" to read
+cli: src/commands/autofix-pr/push.test.ts > runPush (real git, bare remote) > reads the remote branch itself, not one whose name ends like it
+cli: src/commands/review/base-tree.test.ts > runBaseTree > certifies nothing it could not check for tracked changes (R5-6, R5-8)
+cli: src/commands/review/base-tree.test.ts > runBaseTree > does not SETTLE a build killed by its own deadline, or refused (R4-2)
+cli: src/commands/review/base-tree.test.ts > runBaseTree > settles nothing while the filter screen cannot see the whole config (R5-6)
+cli: src/commands/review/capture-local.incremental.test.ts > capture-local — the decided stops are machine-readable > certifies a restored SUBMODULE pointer instead of refusing it for ever
+cli: src/commands/review/capture-tui.test.ts > capture-tui without tmux (probe seam) > keeps unverifiable artifacts when the WRITE PROBE itself fails
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > announces the span in the rendered summary, not only in the object
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > bills the boundary instant to exactly one attempt
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > bills the current session from its own entry, not from the plan
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > clamps each prior session at ITS OWN successor, and sums both spans
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > counts a prior session with agents but a lost chat file
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > does not announce a prior session that contributed nothing
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > excludes prior chat noise from BEFORE that attempt began
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > folds the interrupted attempt's main loop and agents into the totals
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > folds TWO prior sessions, each inside its own window
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > prefilters prior agent streams against the PRIOR floor, not the current one
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > reports zero prior sessions without a ledger — and reads nothing extra
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — a resumed run bills the whole review > still refuses an empty CURRENT chat when prior sessions have events
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — prior-session bounds, faults and wall time > clamps a prior session's AGENT transcripts to the next attempt too
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — prior-session bounds, faults and wall time > clamps a prior session's chat to the moment the next attempt began
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — prior-session bounds, faults and wall time > counts a prior session ONCE when it had both chat and agents
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — prior-session bounds, faults and wall time > discloses an unreadable prior agent dir instead of silently flooring it
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — prior-session bounds, faults and wall time > never reads a symlinked prior session directory
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — prior-session bounds, faults and wall time > sums each session's own span rather than spanning the dead gap
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — the spend, from the records already on disk > counts folded runs below the cut as agents, not rows
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — the spend, from the records already on disk > folds a relaunched agent into one (×N) row
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — the spend, from the records already on disk > keeps a reverse-audit chunk auditor apart from the territory finder
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — the spend, from the records already on disk > labels an auditor from its own brief line, not a quoted audit path
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — the spend, from the records already on disk > labels from the FIRST line only — an identity quoted below never wins
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — the spend, from the records already on disk > ranks a folded (×N) row by its combined total, not its first member
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — the spend, from the records already on disk > reads the round from the identity line, never from folded findings
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — the spend, from the records already on disk > renders exactly eight agent rows with no truncation footnote
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — the spend, from the records already on disk > separates rounds by label while shards of one round still fold
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — the spend, from the records already on disk > skips an agent killed before its first response, with no phantom row
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger — the spend, from the records already on disk > truncates the agent block past eight rows, keeping the biggest
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger command boundary — informational, never a failure > degrades a failed --out write to a warning and still exits 0
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger command boundary — informational, never a failure > exits 0 and names a missing chat transcript instead of printing agents-only totals
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger command boundary — informational, never a failure > exits 0 when the terminal writes throw — the reader went away
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger command boundary — informational, never a failure > exits 0 with a reason when the ledger cannot be computed
+cli: src/commands/review/cost-ledger.test.ts > cost-ledger command boundary — informational, never a failure > writes --out into a directory it creates, with every stream kept
+cli: src/commands/review/lib/base-tree-trust.test.ts > base-tree trust store > never OPENS a non-regular file at either host-side path
+cli: src/commands/review/lib/diff-plan.integration.test.ts [ src/commands/review/lib/diff-plan.integration.test.ts ]
+cli: src/commands/review/lib/git.integration.test.ts > releaseWorktree > reports freed when the remove answered 0 and only the prune was REFUSED (R32-2)
+cli: src/commands/review/lib/local-anchor.integration.test.ts > hashWorktreeFiles — the attributes probe is not buffer-bound > answers for a path count whose check-attr output passes 1 MB
+cli: src/commands/review/lib/paths.test.ts > ensureReviewTmpDir — the guarded set is pinned, not documented > names every module that builds a scratch path from the shared helpers
+cli: src/serve/hosted-harness-model.integration.test.ts > changes the next request model and capacity while retaining Session history
+cli: src/serve/hosted-harness-model.integration.test.ts > completes a real hosted no-tool text turn
+cli: src/serve/hosted-harness-model.integration.test.ts > persists normalized provider prompt usage with the resolved configured capacity
+cli: src/serve/hosted-harness-model.integration.test.ts > retains real provider reasoning Parts for the next no-tool request
+cli: src/serve/hosted-harness-model.integration.test.ts > sends the current prompt after a completed turn
+cli: src/serve/hosted-harness-model.integration.test.ts > sends the current prompt after a completed turn before an empty answer
+cli: src/serve/hosted-harness-model.integration.test.ts > sends the current prompt after a completed turn following an unanswered turn
+cli: src/serve/hosted-harness-model.integration.test.ts > sends the current prompt after a completed turn with an empty answer
+cli: src/serve/hosted-harness-model.integration.test.ts > sends the current prompt after a completed turn with guidance after an initial answer
+cli: src/serve/hosted-harness-model.integration.test.ts > sends the current prompt after a completed turn with queued guidance following an unanswered turn
+cli: src/serve/hosted-harness-model.integration.test.ts > sends the current prompt after a two unanswered turns
+cli: src/serve/hosted-harness-model.integration.test.ts > sends the current prompt after a unanswered turn
+cli: src/serve/hosted-harness-model.integration.test.ts > sends the selected model and preserves core, agent and project instruction order on the wire
+cli: src/serve/hosted-harness-model.integration.test.ts > uses the real compression engine and restores its journal snapshot in the next provider request after reopening
+cli: src/serve/hosted-harness-prompt-surface.integration.test.ts > continues the real model loop when guidance arrives during the final response
+cli: src/serve/hosted-harness-prompt-surface.integration.test.ts > includes queued text and pinned files in the actual provider request in FIFO order
+cli: src/serve/hosted-harness-prompt-surface.integration.test.ts > omits tool-specific guidance and worked calls from a no-tool request
+cli: src/serve/hosted-harness-prompt-surface.integration.test.ts > uses the five Hosted declarations to filter the prompt sent to the model
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > clears the keepalive timer when backpressure stops the stream
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > closes the Shell publisher after a completed turn
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > closes the Shell publisher after a execution-error turn
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > closes the Shell publisher after a model-error turn
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > ends an event stream when its attachment closes
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > keeps the caller session ID, commits a text turn, and refuses duplicate inference
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > preserves the real model/record boundary for send_message: assistant-child (#14062)
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > preserves the real model/record boundary for send_message: assistant-member (#14062)
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > preserves the real model/record boundary for send_message: child (#14062)
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > preserves the real model/record boundary for send_message: hook (#14062)
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > preserves the real model/record boundary for send_message: member (#14062)
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > preserves the real model/record boundary for send_message: member-bob (#14062)
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > preserves the real model/record boundary for send_message: member-broadcast (#14062)
+cli: src/serve/hosted-harness-session.test.ts > Hosted Harness no-tool session > stops writing an event stream after backpressure ends it
+cli: src/serve/hosted-workflow-turn.integration.test.ts > runHostedWorkflowTurn agents on the real subagent manager > gives a model override no tools and nothing of the Harness filesystem
+cli: src/serve/hosted-workflow-turn.integration.test.ts > runHostedWorkflowTurn agents on the real subagent manager > gives an effort override no tools and nothing of the Harness filesystem
+cli: src/serve/hosted-workflow-turn.integration.test.ts > runHostedWorkflowTurn agents on the real subagent manager > gives the plain dispatch no tools and nothing of the Harness filesystem
+cli: src/serve/hosted-workflow-turn.integration.test.ts > runHostedWorkflowTurn agents on the real subagent manager > keeps only structured_output for a schema dispatch
+cli: src/serve/managed-local-runtime.test.ts > Managed local packaged runtime > uses canonical JAVA_HOME Java for an explicitly lightweight payload
+cli: src/serve/managed-local-runtime.test.ts > Managed local packaged runtime > uses the first executable Java on PATH when JAVA_HOME is unset
+cli: src/serve/routes/autofix-pr-watches.test.ts > autofix-pr watch routes > holds no watch outside a git repository, and changes no file it reads
+cli: src/serve/routes/autofix-pr-watches.test.ts > autofix-pr watch routes > runs no git command but the one that finds the clone
+cli: src/serve/routes/scheduled-tasks.test.ts > workspace-qualified scheduled-tasks routes > rejects an untrusted workspace with 403, without spawning
+cli: src/serve/routes/ssh-workspace.test.ts > SSH workspace boundary and Git inspection > counts all untracked lines while limiting rendered rows to 50
+cli: src/serve/routes/ssh-workspace.test.ts > SSH workspace boundary and Git inspection > handles binary files and symbolic links without following the link or failing the overview
+cli: src/serve/routes/ssh-workspace.test.ts > SSH workspace boundary and Git inspection > includes staged and working changes on an unborn branch
+cli: src/serve/routes/ssh-workspace.test.ts > SSH workspace boundary and Git inspection > marks large untracked previews as truncated without reading the whole file
+cli: src/serve/routes/ssh-workspace.test.ts > SSH workspace boundary and Git inspection > returns counts without details above the 500-file threshold
+cli: src/serve/routes/ssh-workspace.test.ts > SSH workspace boundary and Git inspection > treats hostile file names literally and clears inherited Git selectors
+cli: src/serve/routes/web-shell-pairing.test.ts > Web Shell pairing > preserves operator access logs after a throttled exchange flood
+cli: src/serve/routes/web-shell-pairing.test.ts > Web Shell pairing > rate-limits issuance after bearer authentication
+cli: src/serve/routes/workspace-extensions-controller.test.ts > createExtensionsController > attributes the injected runtime env only to its own workspace and never throws out of a route
+cli: src/serve/routes/workspace-extensions-controller.test.ts > createExtensionsController > loads settings once per manager and resolves consent and proxy from that same merge
+cli: src/serve/routes/workspace-extensions-controller.test.ts > createExtensionsController > refuses an ambient opt-in this workspace did not choose, without injected env
+cli: src/serve/routes/workspace-extensions-controller.test.ts > createExtensionsController > resolves telemetry consent from the owning runtime env, not the ambient one
+cli: src/serve/routes/workspace-git-worktrees.test.ts > workspace git worktree routes > clears a stale entry its own shield lock stranded, in one click
+cli: src/serve/routes/workspace-git-worktrees.test.ts > workspace git worktree routes > counts a session that entered the worktree after it started
+cli: src/serve/routes/workspace-git-worktrees.test.ts > workspace git worktree routes > counts every live session in the worktree, not just one
+cli: src/serve/routes/workspace-git-worktrees.test.ts > workspace git worktree routes > falls back to prune only when git refuses a stale registration
+cli: src/serve/routes/workspace-git-worktrees.test.ts > workspace git worktree routes > names the uncommitted work a lock or a session would hide
+cli: src/serve/routes/workspace-git-worktrees.test.ts > workspace git worktree routes > refuses rather than pruning past a bystander it could not shield
+cli: src/serve/routes/workspace-git-worktrees.test.ts > workspace git worktree routes > releases a shield lock it left behind instead of refusing on it
+cli: src/serve/routes/workspace-git-worktrees.test.ts > workspace git worktree routes > releases its own shield lock on a forced removal too
+cli: src/serve/routes/workspace-git-worktrees.test.ts > workspace git worktree routes > reports git’s refusal when the prune fallback did not clear the entry
+cli: src/serve/routes/workspace-git-worktrees.test.ts > workspace git worktree routes > shields a registration that goes stale while it is locking
+cli: src/serve/routes/workspace-git-worktrees.test.ts > workspace git worktree routes > warns when it cannot tell whether a commit is kept
+cli: src/serve/routes/workspace-github-prs.test.ts > workspace GitHub PR routes > redacts the resolved fallback binary even when its path has spaces
+cli: src/serve/server.test.ts > auth device-flow routes > POST /workspace/auth/provider does not change a fixed provider protocol via the legacy alias
+cli: src/serve/server.test.ts > auth device-flow routes > POST /workspace/auth/provider passes padded valid keys through to installAuthProvider
+cli: src/serve/server.test.ts > auth device-flow routes > POST /workspace/auth/provider reports invalid API key as a client error
+cli: src/serve/server.test.ts > createServeApp > POST /sessions/archive and /sessions/unarchive > returns session_archiving for pending prompt removal while archive is in flight
+cli: src/serve/server.test.ts > createServeApp > Web Shell static serving > serves page document /live without bypassing API authentication
+cli: src/serve/server/auth-provider-helpers.test.ts > buildAuthProviderCatalog > lists QwenCloud first and pins every group membership
+cli: src/serve/server/self-origin.test.ts > remote same-origin Host normalization > keeps the wall for a default-port Origin mismatch
+cli: src/serve/session-agents/orchestrator.test.ts > SessionAgentOrchestrator squads > runs a directly mentioned leader in squad mode while its engagement is active
+cli: src/serve/workspace-providers-status.test.ts > createWorkspaceProvidersStatusProvider > previews partial defaults and exact alias routes without losing invalid rows
+cli: src/serve/workspace-skill-management.test.ts > workspace Skill management > rejects a ZIP with 2001 files and ignores platform metadata
+cli: src/serve/workspace-skill-management.test.ts > workspace Skill management > reports a ZIP staging write fault without wedging the install
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > drives API key provider steps from endpoint options metadata
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > GEMINI_API_KEY environment variable > should detect GEMINI_API_KEY environment variable
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > GEMINI_API_KEY environment variable > should show the GEMINI_API_KEY message if QWEN_DEFAULT_AUTH_TYPE is set to use api key
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > keeps an auth error inside a 36-column, 14-row dialog budget
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > keeps an auth error inside a 36-column, 5-row dialog budget
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > keeps an auth error inside a 80-column, 14-row dialog budget
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > keeps an auth error inside a 80-column, 2-row dialog budget
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > keeps provider navigation readable in a 14-row dialog at width 100
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > keeps provider navigation readable in a 14-row dialog at width 36
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > QWEN_DEFAULT_AUTH_TYPE environment variable > should fall back to default if QWEN_DEFAULT_AUTH_TYPE is not set
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > QWEN_DEFAULT_AUTH_TYPE environment variable > should select the auth type specified by QWEN_DEFAULT_AUTH_TYPE
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > QWEN_DEFAULT_AUTH_TYPE environment variable > should show an error and fall back to default if QWEN_DEFAULT_AUTH_TYPE is invalid
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > renders QwenCloud flow title in Chinese when locale is zh (T1)
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > should go back from Coding Plan region selection to Alibaba ModelStudio
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > should go back from third-party provider API key input to provider list
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > should pre-fill the Model IDs step with previously saved custom model IDs
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > should preserve the selected main entry when returning from each top-level flow
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > should prevent exiting when no auth method is selected and show error message
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > should return from Token Plan API key input to Token Plan selection
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > should show Alibaba ModelStudio access methods after selecting Alibaba ModelStudio
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > should show preset providers in third-party provider options
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > should submit Token Plan through the shared subscription handler
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog > shows Token Plan and Standard API Key in QwenCloud sub-menu but not Coding Plan (T3+T4)
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog Custom API Key Wizard > calls handleProviderSubmit on Enter in review view
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog Custom API Key Wizard > navigates to base URL input after selecting a protocol
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog Custom API Key Wizard > navigates to protocol selection when Custom API Key is selected
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog Custom API Key Wizard > passes generationConfig when advanced options are toggled
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog Custom API Key Wizard > previews the persisted reasoning shape for the OpenAI Responses protocol
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog Custom API Key Wizard > reopens a saved Responses install with the API step on Responses
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog Custom API Key Wizard > shows advanced config screen after entering model IDs
+cli: src/ui/auth/AuthDialog.test.tsx > AuthDialog Custom API Key Wizard > shows review screen with JSON after entering model IDs
+cli: src/ui/commands/doctorChecks.test.ts > runDoctorChecks > should show provider detail when credentials match a known provider
+cli: src/ui/components/agent-view/AgentChatContent.test.tsx > AgentChatContent teammate-tab scrolling (#9507) > VP mode: a pending teammate approval pulls the tail back and keeps the viewport quiet
+cli: src/ui/components/agent-view/AgentChatContent.test.tsx > AgentChatContent teammate-tab scrolling (#9507) > VP mode: executing tool groups stay on the interactive (pending) render path
+cli: src/ui/components/agent-view/AgentChatContent.test.tsx > AgentChatContent teammate-tab scrolling (#9507) > VP mode: Page Up scrolls the teammate transcript back to earlier output
+cli: src/ui/components/BaseTextInput.test.tsx > BaseTextInput > uses the logical newline for an unconsumed 'Ctrl'+Return
+cli: src/ui/components/Footer.test.tsx > <Footer /> > refreshes the scheduled task count after mount
+cli: src/ui/components/shared/ScrollableList.test.tsx > <ScrollableList /> mouse scrolling > preserves the full delta of a coalesced wheel burst
+cli: src/ui/components/shared/ScrollableList.test.tsx > <ScrollableList /> mouse scrolling > routes wheel SGR events to viewport scroll (window shifts)
+cli: src/ui/components/skills/SkillsManagerDialog.layout.test.tsx > SkillsManagerDialog > picks the nonfirst highlighted skill and preserves its disabled neighbor
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > batches multiple provider updates into a single prompt
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > detects newly added built-in models when the template grows
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > does not change auth when updating an inactive provider 'on a different protocol'
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > does not change auth when updating an inactive provider 'on the same protocol'
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > does not move the user off a model 'provided by the active runtime config…'
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > does not move the user off a model 'registered under the same protocol'
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > does not overwrite existing env key with empty value
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > does not refresh auth before auth initialization completes
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > excludes user-added custom models from the diff
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > executes update when user confirms with "update"
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > later persists the cooldown for all providers in one batched write
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > leaves the model selection alone across a multi-provider batch update
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > leaves the model selection alone when the previous model is gone
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > leaves the selection alone even for the active provider in a mixed batch
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > counts a built-in stored on the Responses wire as installed
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > discovers models at the stored international endpoint
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > does not record or prompt after the hook unmounts
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > falls back to the full built-in list when discovery fails
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > falls back to the full built-in list when no served model is built in
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > installs only the built-in models served to the stored key
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > keeps a model selected while discovery is in flight
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > keeps the current model when /models does not list it
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > keeps the model selected when the update is confirmed
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > queues discovery when it finishes before the first answer: false
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > queues discovery when it finishes before the first answer: true
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > records the version without prompting when nothing changes for the key
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > reports a failed version write and still prompts the other providers
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > reports an unexpected discovery-chain rejection
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > skips discovery when no key is stored
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > still prompts when a served model template changed
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > clears a previous served-set postponement after noop
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > clears a previous served-set postponement after skip
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > clears a previous served-set postponement after update
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > does not inherit cleared user markers after a workspace skip is reloaded
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > does not offer a served model the user left out
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > does not prompt for postponed served models during the cooldown
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > does not prompt when discovery fails
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > does not prompt when the served models are unchanged
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > ignores a version postponement left from before the update
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > keeps the install when discovery would remove its last built-in
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > later postpones the served models, not the version
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > offers newly served models after the key changes
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > offers only the models newly served since the last check
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > prompts again after the served-set postponement expires
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > prompts when the served models differ from the postponed ones
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > rechecks retained models after switching away, then honors skip
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > rechecks retained models after switching away, then honors update
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > rechecks the served set even when the current version was skipped
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > records a retained selection without prompting until the selection changes
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > records the served models without prompting when nothing changes
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > removes unserved models installed by an earlier update
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > model discovery > up-to-date install > skip accepts the served models instead of ignoring the version
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > persists a cooldown (not a full update) when user chooses "later"
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > persists ignoredVersion when user chooses "skip"
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > preserves the stored global base URL when updating
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > refreshes a built-in Responses override without adding a Chat route
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > refreshes template fields and version while preserving custom model settings
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > reports a failed skip write instead of rejecting
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > shows prompt again after the "later" cooldown expires
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > shows prompt again when a newer version supersedes ignoredVersion
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > shows prompt for a newer version despite an active "later" cooldown
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > shows prompt when the clock stepped backward after postponement
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > shows update prompt with structured diff when versions differ
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > skip persists ignoredVersion for all providers in batch
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > surfaces an error but still dismisses when persisting the cooldown fails
+cli: src/ui/hooks/useProviderUpdates.test.ts > useProviderUpdates > updates both provider metadata keys from a batched prompt
+cli: src/ui/opentui/dialogs-auth.test.tsx > caret editing in dialog text fields (#107) > keeps the caret a late install verdict finds parked in an earlier field
+cli: src/ui/opentui/dialogs-auth.test.tsx > OpenTuiAuthDialog (#57 onboarding flow) > shows Token Plan and Standard API Key in QwenCloud sub-menu but not Coding Plan (T3+T4)
+cli: src/ui/opentui/dialogs-auth.test.tsx > OpenTuiAuthDialog (#57 onboarding flow) > takes the read again after a preset flow’s terminal submit fails
+cli: src/ui/opentui/dialogs-auth.test.tsx > OpenTuiAuthDialog (#57 onboarding flow) > takes the read again after a submit that saved no conversation model
+cli: src/ui/opentui/dialogs-auth.test.tsx > recommended-model checkboxes out of one read (#113) > applies every tick of a held Space to the same checkbox
+cli: src/ui/opentui/dialogs-auth.test.tsx > recommended-model checkboxes out of one read (#113) > clips a model label to the one physical row its charge pays
+cli: src/ui/opentui/dialogs-auth.test.tsx > recommended-model checkboxes out of one read (#113) > filters the recommended list from the search field one Tab away
+cli: src/ui/opentui/dialogs-auth.test.tsx > recommended-model checkboxes out of one read (#113) > lands the Space on the row the arrows of the same read reached
+cli: src/ui/opentui/dialogs-auth.test.tsx > recommended-model checkboxes out of one read (#113) > refuses the recommended rows a short region cannot paint
+cli: src/ui/opentui/dialogs-auth.test.tsx > recommended-model checkboxes out of one read (#113) > submits the tick made in the same read as Enter
+cli: src/ui/opentui/dialogs-auth.test.tsx > recommended-model checkboxes out of one read (#113) > toggles the row an arrow of the same read moved to
+cli: src/ui/opentui/dialogs-auth.test.tsx > the wizard frame keeps its natural height > charges the Shell title the rows it wraps into at a narrow width
+cli: src/ui/opentui/dialogs-auth.test.tsx > the wizard frame keeps its natural height > refuses the sub-menu keys when the region pays zero provider rows
+cli: src/ui/opentui/dialogs-auth.test.tsx > the wizard frame keeps its natural height > sheds the main list margin row before the list loses its last row
+cli: src/ui/opentui/dialogs-auth.test.tsx > the wizard frame keeps its natural height > windows the provider sub-menu from the region, so Enter only opens a painted provider
+cli: src/ui/opentui/key-map.test.ts > opentui key-map: submit / newline parity (InputPrompt) > Shift/Ctrl/Meta+Enter and Ctrl+J are NEWLINE, not SUBMIT
+cli: src/ui/opentui/opentui-header.test.tsx > wordmark gradient > samples each line on its own ramp, as ink’s per-line Transform does
+cli: src/ui/opentui/theme-parity.test.ts > getActiveOpenTuiTheme (NO_COLOR parity) > returns the active theme (Qwen Dark by default)
+cli: src/ui/opentui/voice-input-parity.test.tsx > OpenTUI voice input through the real shell and composer > keeps 'Ctrl'+Return in the logical draft while recording
+cli: src/ui/standalone-update.test.ts > standalone-update > download sources > accepts an archive without a launcher once the entry point runs
+cli: src/ui/utils/export/export-transcript-document.test.ts > ExportTranscriptDocumentV1 > degrades instead of aborting when JSON escaping exceeds the envelope
+cli: src/ui/utils/export/export-transcript-document.test.ts > ExportTranscriptDocumentV1 > rejects schema and semantic safety violations
+cli: src/ui/utils/TableRenderer.test.tsx > <TableRenderer /> > does not preserve foreground after an explicit foreground reset
+cli: src/ui/utils/TableRenderer.test.tsx > <TableRenderer /> > does not preserve foreground after an explicit reset
+cli: src/ui/utils/terminal-image-renderer.test.ts > terminalImageRenderer > renders a Kitty virtual image with placeholder rows
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > always resolves the update check via npm view, regardless of installation type (#7515)
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > fetchInfo timeout (#6857) > returns a detailed error when fetchInfo does not resolve within FETCH_TIMEOUT_MS
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > fetchInfo timeout (#6857) > still resolves the update path when fetchInfo returns before the timeout
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > fetchInfo timeout (#6857) > surfaces a timeout when both nightly dist-tags stall
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > fetchInfo timeout (#6857) > surfaces a timeout when only the nightly dist-tag stalls
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > nightly updates > should notify for a newer nightly version when current is nightly
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > should pass the exact package name and version to fetchGlobalNpm
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > should return a detailed error result if fetchInfo rejects
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > should return a detailed skipped result if package metadata is missing
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > should return a detailed skipped result in DEV mode
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > should return a detailed up-to-date result when there is no update
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > should return a detailed update result when a newer version is available
+cli: src/ui/utils/updateCheck.test.ts > checkForUpdates > should return a message if a newer version is available
+cli: src/utils/apiPreconnect.test.ts > apiPreconnect > resolvedBaseUrl handling > should accept DashScope regional endpoint (cn-hongkong)
+cli: src/utils/apiPreconnect.test.ts > apiPreconnect > resolvedBaseUrl handling > should accept DashScope regional endpoint (sg-singapore)
+cli: src/utils/apiPreconnect.test.ts > apiPreconnect > resolvedBaseUrl handling > should accept DashScope regional endpoint (us-virginia)
+cli: src/utils/flush-output.test.ts > output completion through real OS pipes > preserves distinct stdout/stderr tails after backpressure
+core: src/config/config.test.ts > Server Config (config.ts) > Usage Statistics > logs the session start event
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > resolves qwen3.8-max default before shaping its request
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / deepseek-v4-flash reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / deepseek-v4-flash-0731 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / deepseek-v4-pro reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / deepseek-v4-pro-0813 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / deepseek-v4.1-flash reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / glm-5.1 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / glm-5.2 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / glm-5.3 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / kimi-k2.6 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / kimi-k2.7-code reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / kimi-k3 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / qwen3.7-plus reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / qwen3.8-flash reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / qwen3.8-max reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed alibabaStandard / qwen3.8-max-0902 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed coding-plan / kimi-k2.5 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed coding-plan / qwen3.5-plus reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed deepseek / deepseek-flash reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed deepseek / deepseek-v4-flash reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed deepseek / deepseek-v4-pro reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed moonshot / kimi-k2.6 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed moonshot / kimi-k2.7-code reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed moonshot / kimi-k2.7-code-highspeed reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed moonshot / kimi-k3 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed token-plan / deepseek-v4-pro-0813 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed token-plan / deepseek-v4.1-flash reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed token-plan / glm-5.2 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed token-plan / glm-5.3 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed token-plan / MiniMax-M2.5 reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed token-plan / qwen3.8-flash reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed token-plan / qwen3.8-max reasoning through the real provider hook
+core: src/core/openaiContentGenerator/pipeline.test.ts > ContentGenerationPipeline > execute > sends installed token-plan / qwen3.8-max-preview reasoning through the real provider hook
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > admits QwenCloud host maas.qianwenaiapi.com as a DashScope endpoint
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > admits QwenCloud host maas.qwencloudapi.com as a DashScope endpoint
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > admits QwenCloud host token-plan.maas.qianwenaiapi.com as a DashScope endpoint
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > admits QwenCloud host token-plan.maas.qwencloudapi.com as a DashScope endpoint
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits DashScope capabilities for QwenCloud host maas.qianwenaiapi.com
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits DashScope capabilities for QwenCloud host maas.qwencloudapi.com
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits DashScope capabilities for QwenCloud host token-plan.maas.qianwenaiapi.com
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits DashScope capabilities for QwenCloud host token-plan.maas.qwencloudapi.com
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits deepseek-v3.2 toggle capabilities from its provider
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits glm-5.2 toggle capabilities from its provider
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits kimi-k2.5 toggle capabilities from its provider
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits kimi-k2.6 toggle capabilities from its provider
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits qwen3-max-2026-01-23 toggle capabilities from its provider
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits qwen3.5-plus toggle capabilities from its provider
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits qwen3.6-flash toggle capabilities from its provider
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > inherits the selected provider policy for the same model
+core: src/core/reasoning-overrides.test.ts > reasoning declarations > overrides a known default without persisting a user choice
+core: src/memory/memoryDiscovery.test.ts > loadServerHierarchicalMemory > imports of sibling top-level context files (#15679) > does not duplicate AGENTS.md imported by CLAUDE.md in flat format
+core: src/memory/memoryDiscovery.test.ts > loadServerHierarchicalMemory > imports of sibling top-level context files (#15679) > does not duplicate AGENTS.md imported by CLAUDE.md in tree format
+core: src/memory/memoryDiscovery.test.ts > loadServerHierarchicalMemory > imports of sibling top-level context files (#15679) > does not duplicate AGENTS.md imported via a symlink by CLAUDE.md in flat format
+core: src/memory/memoryDiscovery.test.ts > loadServerHierarchicalMemory > imports of sibling top-level context files (#15679) > does not duplicate AGENTS.md imported via a symlink by CLAUDE.md in tree format
+core: src/memory/recall-scan-latency.test.ts > auto-memory recall scan latency > publishes the cold-scan fast result inside the initial budget
+core: src/memory/recall-scan-latency.test.ts > auto-memory recall scan latency > publishes the warm-cache fast result inside the turn budget
+core: src/providers/__tests__/presets/grok.test.ts > grokProvider > is found by its env key + base URL credentials
+core: src/providers/__tests__/presets/grok.test.ts > grokProvider > is registered and discoverable in the provider registry
+core: src/providers/__tests__/presets/moonshot.test.ts > moonshotProvider > is found by its env key + base URL credentials
+core: src/providers/__tests__/presets/moonshot.test.ts > moonshotProvider > is registered and discoverable in the provider registry
+core: src/providers/__tests__/presets/qwencloud-standard.test.ts > qwencloudStandardProvider > is registered, and the qwencloud group excludes Coding Plan
+core: src/providers/__tests__/presets/qwencloud-token-plan.test.ts > qwencloudTokenPlanProvider > is registered in the qwencloud access-method group
+core: src/providers/__tests__/provider-config.test.ts > findProviderByCredentials > finds a preset by its env key + base URL
+core: src/providers/__tests__/provider-config.test.ts > findProviderByCredentials > matches a multi-baseUrl preset against any of its registered URLs
+core: src/providers/__tests__/provider-config.test.ts > findProviderByCredentials > matches Token Plan credentials against both registered region URLs
+core: src/providers/__tests__/provider-config.test.ts > getAllProviderBaseUrls > expands BaseUrlOption[] presets into each option URL
+core: src/providers/__tests__/provider-config.test.ts > getAllProviderBaseUrls > returns a non-empty list including known preset URLs
+core: src/telemetry/loggers.test.ts > loggers > logChatCompression > logs the chat compression event to QwenLogger
+core: src/telemetry/loggers.test.ts > loggers > logExtensionDisable > should log extension disable event
+core: src/telemetry/loggers.test.ts > loggers > logExtensionEnable > should log extension enable event
+core: src/telemetry/loggers.test.ts > loggers > logExtensionInstall > should log extension install event
+core: src/telemetry/loggers.test.ts > loggers > logExtensionUninstall > should log extension uninstall event
+core: src/telemetry/loggers.test.ts > loggers > logGoalState > emits the transition with its figures and records its metrics
+core: src/telemetry/loggers.test.ts > loggers > logGoalState > still reaches the analytics sink when the OpenTelemetry SDK is off
+core: src/telemetry/loggers.test.ts > loggers > logMalformedJsonResponse > logs the event to Clearcut and OTEL
+core: src/telemetry/loggers.test.ts > loggers > logProtocolTagSanitized > emits a privacy-safe handled event to QwenLogger and OpenTelemetry
+core: src/telemetry/loggers.test.ts > loggers > logRipgrepFallback > should log ripgrep fallback event
+core: src/telemetry/loggers.test.ts > loggers > logRipgrepFallback > should log ripgrep fallback event with an error
+core: src/telemetry/loggers.test.ts > loggers > logRipgrepRuntimeRecovery > logs privacy-safe runtime recovery fields
+core: src/telemetry/loggers.test.ts > loggers > logSkillLaunch > forwards the event to QwenLogger and emits an OTLP record
+core: src/telemetry/loggers.test.ts > loggers > logSkillLaunch > forwards to QwenLogger even when OTLP SDK is not initialized
+core: src/telemetry/loggers.test.ts > loggers > logToolCall > clears stale error fields for 'cancelled' events
+core: src/telemetry/loggers.test.ts > loggers > logToolCall > clears stale error fields for 'success' events
+core: src/telemetry/loggers.test.ts > loggers > logToolCall > normalizes a missing execution_status to unknown end-to-end
+core: src/telemetry/loggers.test.ts > loggers > logToolCall > normalizes an unclassified error before every consumer
+core: src/telemetry/loggers.test.ts > loggers > logToolCall > normalizes non-OTel consumers when the SDK is disabled
+core: src/telemetry/loggers.test.ts > loggers > logToolCall > preserves an explicitly classified error type
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > concurrent flush protection > should handle concurrent flush requests
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > createRumPayload > caches source info and does not read file on every payload creation
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > createRumPayload > does not include source when source.json does not exist
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > createRumPayload > handles source.json parsing errors gracefully
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > createRumPayload > includes os metadata in payload
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > createRumPayload > includes source when source.json exists with valid source
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > createRumPayload > includes the base URL for OpenAI Responses auth
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > error handling > should handle flush errors gracefully with debug mode
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > error text redaction > replaces error text at the enqueue boundary
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > journals a Goal transition without its Goal id or absent figures
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > journals every allowed Goal property without the Goal id
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > journals the loop detector attribution on subagent loop stops
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > logs protocol tag sanitization without model content
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > logs ripgrep runtime recovery without search details
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > omits loop_type from subagent journals when no loop fired
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > preserves zero Goal figures in analytics
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > should flush end session events immediately
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > should flush start session events immediately
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > should log IDE connection events
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > should log Kitty sequence overflow events
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event handlers > should re-read source info when starting a new session
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event queue management > should handle enqueue errors gracefully
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > event queue management > should handle event overflow gracefully
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > failed event retry mechanism > should handle empty retry queue gracefully
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > failed event retry mechanism > should requeue failed events with size limits
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > flush timing > should flush when interval has passed
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > flush timing > should not flush if interval has not passed
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > getInstance > returns an instance when usage statistics are enabled
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > getProxyAgent > accepts uppercase proxy URL schemes
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > getProxyAgent > prefers lowercase no_proxy over NO_PROXY
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > getProxyAgent > returns no agent when a NO_PROXY suffix matches the upload host
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > getProxyAgent > returns no agent when NO_PROXY is a bare wildcard
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > getProxyAgent > still proxies when a port-qualified NO_PROXY entry names another port
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > getProxyAgent > still proxies when NO_PROXY does not match the upload host
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logHookCallEvent > should call flushIfNeeded after logging
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logHookCallEvent > should handle all hook event types
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logHookCallEvent > should handle empty hook name
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logHookCallEvent > should handle hook name that is just a command without path
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logHookCallEvent > should handle hook name with only whitespace
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logHookCallEvent > should log a failed hook call event without forwarding raw error text
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logHookCallEvent > should log a successful hook call event
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logHookCallEvent > should not include submitted prompts in hook telemetry
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logHookCallEvent > should sanitize hook name to remove sensitive information
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logHookCallEvent > should sanitize hook name with Windows path
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logSkillLaunchEvent > encodes failed launches with success=0 and still carries prompt_id
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logSkillLaunchEvent > writes skill_name, success and prompt_id into RUM event properties
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logToolCallEvent outcomes > records terminal and execution outcomes with tool identity
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logToolCallEvent privacy > records terminal status without forwarding MCP server metadata or function arguments
+core: src/telemetry/qwen-logger/qwen-logger.test.ts > QwenLogger > logToolResultSizeEvent privacy > mirrors size fields without leaking call or prompt correlators
+core: src/tools/mcp-client-v2.test.ts > configured MCP SDK v2 negotiation > connects remote HTTP with the legacy initialize handshake
+core: src/tools/mcp-client.test.ts > mcp-client > dedicated undici fetch (#7147) > honors the TLS-insecure switch for self-signed MCP endpoints
+core: src/tools/mcp-client.test.ts > mcp-client > dedicated undici fetch (#7147) > performs real requests through the dedicated dispatcher
+core: src/tools/shell.session-commit-tracking.test.ts > ShellTool session commit tracking (issue #12460) > registers a commit spelled with a Windows `.exe` git path (issue #12514)
+core: src/tools/web-search.test.ts > evaluateWebSearchGate auto derivation > derives the backend from a Standard API Key entry
+core: src/tools/web-search.test.ts > evaluateWebSearchGate auto derivation > derives the backend from a Token Plan entry
+core: src/tools/web-search.test.ts > evaluateWebSearchGate auto derivation > honors a preset veto even when its host would otherwise be accepted
+core: src/tools/web-search.test.ts > evaluateWebSearchGate auto derivation > honors an endpoint preset veto despite credential formatting: https://idealab.alibaba-inc.com/api/openai/v1/
+core: src/tools/web-search.test.ts > evaluateWebSearchGate auto derivation > honors an endpoint preset veto for a literal credential
+core: src/tools/web-search.test.ts > evaluateWebSearchGate auto derivation > stays silently off on a Coding Plan entry
+core: src/tools/web-search.test.ts > evaluateWebSearchGate auto derivation > stays silently off on a third-party provider, without falling back to another DashScope entry
+core: src/utils/bun-pty.node-bun.test.ts > no-gap pause/resume toggle keeps the stream byte-exact on every runtime > 'bun': 300 no-gap toggles during a 5000-line flood stay byte-exact

@@ -1,0 +1,85 @@
+diff --git a/node_modules/ink/build/output.js b/node_modules/ink/build/output.js
+--- a/node_modules/ink/build/output.js
++++ b/node_modules/ink/build/output.js
+@@ -21,15 +21,40 @@
+     }
+     return true;
+ };
++// coddy: ширины и разбор строк кешируются между кадрами, а не на один кадр: при прокрутке те же строки
++// перемеряются и разбираются каждый кадр, string-width и tokenize съедали больше половины рендера.
++// Кеши ограничены и числом записей, и суммарной длиной ключей: растущий при стриминге текст иначе копил бы
++// все свои промежуточные версии. Строки длиннее SHARED_KEY_MAX не кешируются между кадрами — блок меряется
++// по строкам, а они в кеше. StyledChar и так общие у одинаковых строк и не меняются на месте (см. выделение).
++const SHARED_KEY_MAX = 4096;
++const SHARED_CHARS_MAX = 4_000_000;
++const sharedWidths = new Map();
++const sharedBlockWidths = new Map();
++const sharedStyledChars = new Map();
++const sharedChars = new Map();
++const rememberShared = (map, limit, key, value) => {
++    if (key.length > SHARED_KEY_MAX) {
++        return;
++    }
++    const chars = (sharedChars.get(map) ?? 0) + key.length;
++    if (map.size >= limit || chars > SHARED_CHARS_MAX) {
++        map.clear();
++        sharedChars.set(map, key.length);
++    }
++    else {
++        sharedChars.set(map, chars);
++    }
++    map.set(key, value);
++};
+ class OutputCaches {
+-    widths = new Map();
+-    blockWidths = new Map();
+-    styledChars = new Map();
++    widths = sharedWidths;
++    blockWidths = sharedBlockWidths;
++    styledChars = sharedStyledChars;
+     getStyledChars(line) {
+         let cached = this.styledChars.get(line);
+         if (cached === undefined) {
+             cached = styledCharsFromTokens(tokenize(line));
+-            this.styledChars.set(line, cached);
++            rememberShared(this.styledChars, 5000, line, cached);
+         }
+         return cached;
+     }
+@@ -37,7 +62,7 @@
+         let cached = this.widths.get(text);
+         if (cached === undefined) {
+             cached = stringWidth(text);
+-            this.widths.set(text, cached);
++            rememberShared(this.widths, 50000, text, cached);
+         }
+         return cached;
+     }
+@@ -49,7 +74,7 @@
+                 lineWidth = Math.max(lineWidth, this.getStringWidth(line));
+             }
+             cached = lineWidth;
+-            this.blockWidths.set(text, cached);
++            rememberShared(this.blockWidths, 50000, text, cached);
+         }
+         return cached;
+     }
+diff --git a/node_modules/ink/build/render-node-to-output.js b/node_modules/ink/build/render-node-to-output.js
+--- a/node_modules/ink/build/render-node-to-output.js
++++ b/node_modules/ink/build/render-node-to-output.js
+@@ -1,5 +1,5 @@
+ import Yoga from 'yoga-layout';
+-import widestLine from 'widest-line';
++import measureText from './measure-text.js';
+ import { wrapTextWithMetadata } from './wrap-text.js';
+ import getMaxWidth from './get-max-width.js';
+ import squashTextNodes from './squash-text-nodes.js';
+@@ -92,7 +92,7 @@
+             if (sourceText.length > 0) {
+                 const maxWidth = getMaxWidth(yogaNode);
+                 const textWrap = node.style.textWrap ?? 'wrap';
+-                const wrapped = wrapTextWithMetadata(sourceText, maxWidth, textWrap, widestLine(sourceText) > maxWidth);
++                const wrapped = wrapTextWithMetadata(sourceText, maxWidth, textWrap, measureText(sourceText).width > maxWidth); // coddy: ширина из кеша measureText, а не заново каждый кадр
+                 const flowKey = node.attributes.selectionFlow ?? node;
+                 let flowId = flowIds.get(flowKey);
+                 if (flowId === undefined) {
